@@ -1,0 +1,32 @@
+{
+  "post_create": {
+    "title": "foo",
+    "body": "bar",
+    "userId": 1
+  },
+  "post_update_put": {
+    "id": 1,
+    "title": "updated title",
+    "body": "updated body",
+    "userId": 1
+  },
+  "post_update_patch": {
+    "title": "patched title"
+  },
+  "invalid_post_create": {
+    "body": "missing title and userId"
+  },
+  "comment_create": {
+    "postId": 1,
+    "name": "test commenter",
+    "email": "tester@example.com",
+    "body": "this is a test comment"
+  },
+  "user_update_patch": {
+    "email": "updated.email@example.com"
+  },
+  "existing_post_ids": [1, 2, 3, 26, 100],
+  "non_existent_post_id": 99999,
+  "existing_user_ids": [1, 2, 5, 10],
+  "existing_comment_post_ids": [1, 2, 3]
+}

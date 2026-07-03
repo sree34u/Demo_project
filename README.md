@@ -1,20 +1,17 @@
-# Demo Project
+# Automation Framework
 
-Automation framework using:
+Production-grade UI and API test automation framework built with
+**Python 3.12**, **Playwright**, **Pytest**, and **requests**.
 
-- Playwright
-- Pytest
-- Python
+## Stack
 
-## Setup
+| Layer            | Technology            |
+|-------------------|------------------------|
+| UI automation      | Playwright (sync API) |
+| API automation     | requests               |
+| Test runner        | Pytest                |
+| Parallel execution | pytest-xdist           |
+| Reporting          | pytest-html            |
+| Config management  | python-dotenv           |
 
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-playwright install
-Run UI Tests
-pytest tests/ui
-Run API Tests
-pytest tests/api
-
+## Project Structure
