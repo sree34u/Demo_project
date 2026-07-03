@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Environment
+.env
+
+# Pytest
+.pytest_cache/
+.cache/
+
+# Playwright
+playwright-report/
+test-results/
+
+# Logs and reports
+logs/*
+reports/*
+screenshots/*
+
+# Keep directory structure
+!logs/.gitkeep
+!reports/.gitkeep
+!screenshots/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
