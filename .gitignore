@@ -35,3 +35,6 @@ screenshots/*
 # OS
 .DS_Store
 Thumbs.db
+
+# Sandbox file
+practice.py
